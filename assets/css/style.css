@@ -6,29 +6,33 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* #endregion Commons */
 
 /* #region Utilities */
 
 :root {
-    --db-black: background-color: rgba(0, 0, 0, 1);
-    --db-white: background-color: rgba(255, 255, 255, 1);
-    --db-primary: background-color: rgba(0, 97, 255, 1);
-    --db-section-bg: background-color: rgba(180, 208, 231, 1);
-    --db-section-title: background-color: rgba(97, 8, 45, 1);
-    --db-link: background-color: rgba(32, 8, 241, 1);
-    --db-designit-main: background-color: rgba(245, 245, 245, 1);
-    --db-designit: background-color: rgba(162, 211, 155, 1);
-    --db-asu: background-color: rgba(97, 8, 43, 1);
+    --db-black: rgba(0, 0, 0, 1);
+    --db-white: rgba(255, 255, 255, 1);
+    --db-primary: rgba(0, 97, 255, 1);
+    --db-section-bg: rgba(180, 208, 231, 1);
+    --db-section-title: rgba(97, 8, 45, 1);
+    --db-link: rgba(32, 8, 241, 1);
+    --db-designit-main: rgba(245, 245, 245, 1);
+    --db-designit: rgba(162, 211, 155, 1);
+    --db-asu: rgba(97, 8, 43, 1);
     /* Arizona State University */
-    --db-uf: background-color: rgba(0, 147, 206, 1);
+    --db-uf: rgba(0, 147, 206, 1);
     /* University Of Florida */
-    --db-topps: background-color: rgba(255, 28, 28, 1);
-    --db-wbr: background-color: rgba(213, 0, 31, 1);
+    --db-topps: rgba(255, 28, 28, 1);
+    --db-wbr: rgba(213, 0, 31, 1);
     /* World Bicycle Relief */
-    --db-lonelyplanet: background-color: rgba(13, 36, 129, 1);
-    --db-hearst: background-color: rgba(180, 208, 231, 1);
-    --db-cco: background-color: rgba(255, 216, 48, 1);
+    --db-lonelyplanet: rgba(13, 36, 129, 1);
+    --db-hearst: rgba(180, 208, 231, 1);
+    --db-cco: rgba(255, 216, 48, 1);
     /* Clean Channel OutDoor */
 }
 
@@ -76,6 +80,16 @@
 
 .square {
     aspect-ratio: 1;
+}
+
+.mt-1 {
+    margin-top: .5rem;
+}
+
+.btn-primary {
+    background-color: var(--db-primary);
+    padding: .25rem .75rem;
+    color: var(--db-white)
 }
 
 /* #endregion Utilities */
@@ -160,20 +174,18 @@
 
 /* #region header  */
 
-nav .nav_left,
-nav .nav_right {
-    width: calc(50% - 2rem);
-}
-
-nav .nav_right {
-    text-align: right;
+#site_header a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
 }
 
 /* #endregion header  */
 
 /* #region main */
 
-#site_main .hero.container {
+#site_main .hero {
+    background-color: var(--db-section-bg);
     height: 500px;
 }
 
