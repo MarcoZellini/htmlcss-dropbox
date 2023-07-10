@@ -7,3 +7,25 @@
 }
 
 /* #endregion Commons */
+
+/* #region Utilities */
+
+:root {
+    --db-black: background-color: rgba(0, 0, 0, 1);
+    --db-white: background-color: rgba(255, 255, 255, 1);
+    --db-primary: background-color: rgba(0, 97, 255, 1);
+    --db-section-bg: background-color: rgba(180, 208, 231, 1);
+    --db-section-title: background-color: rgba(97, 8, 45, 1);
+    --db-link: background-color: rgba(32, 8, 241, 1);
+    --db-designit-main:background-color: rgba(245, 245, 245, 1);
+    --db-designit: background-color: rgba(162, 211, 155, 1);
+    --db-asu: background-color: rgba(97, 8, 43, 1); /* Arizona State University */
+    --db-uf: background-color: rgba(0, 147, 206, 1); /* University Of Florida */
+    --db-topps: background-color: rgba(255, 28, 28, 1);
+    --db-wbr: background-color: rgba(213, 0, 31, 1); /* World Bicycle Relief */
+    --db-lonelyplanet: background-color: rgba(13, 36, 129, 1);
+    --db-hearst: background-color: rgba(180, 208, 231, 1);
+    --db-cco: background-color: rgba(255, 216, 48, 1); /* Clean Channel OutDoor */
+}
+
+/* #endregion Utilities */
