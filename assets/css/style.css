@@ -40,6 +40,10 @@
     justify-content: space-between;
 }
 
+.justify-content-around {
+    justify-content: space-around;
+}
+
 .f-wrap {
     flex-wrap: wrap;
 }
@@ -126,6 +130,16 @@
 .debug .sponsors {
     height: 500px;
     background-color: lightgreen;
+}
+
+.debug .more_about h2,
+.debug .more_about a {
+    background-color: lightsalmon;
+}
+
+.debug .try_business h2,
+.debug .try_business a {
+    background-color: lightsalmon;
 }
 
 /* #endregion debug */
