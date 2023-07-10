@@ -54,6 +54,10 @@
     margin: auto;
 }
 
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
 .col-4 {
     width: calc(100% / 12 * 4);
 }
@@ -103,7 +107,7 @@
 
 .debug .container {
     background-color: lightgreen;
-    height: 500px;
+    height: 200px;
     border: 1px dotted black;
     padding-bottom: 2rem;
 }
@@ -147,6 +151,10 @@
     background-color: lightsalmon;
 }
 
+
+.debug #site_footer span {
+    background-color: lightsalmon;
+}
 /* #endregion debug */
 
 
@@ -169,6 +177,12 @@ nav .nav_right {
     height: 500px;
 }
 
-
-
 /* #endregion main */
+
+/* #region footer */
+
+#site_footer {
+    background-color: var(--db-black);
+}
+
+/* #endregion footer */
