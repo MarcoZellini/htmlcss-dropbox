@@ -142,6 +142,11 @@
     background-color: lightsalmon;
 }
 
+.debug .faq h2,
+.debug .faq .question span{
+    background-color: lightsalmon;
+}
+
 /* #endregion debug */
 
 
