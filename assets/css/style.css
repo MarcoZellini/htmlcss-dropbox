@@ -54,12 +54,20 @@
     width: calc(100% / 12 * 4);
 }
 
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
 .col-8 {
     width: calc(100% / 12 * 8);
 }
 
 .col-12 {
     width: 100%;
+}
+
+.square {
+    aspect-ratio: 1;
 }
 
 /* #endregion Utilities */
@@ -92,20 +100,12 @@
 .debug .container {
     background-color: lightgreen;
     height: 500px;
-}
-
-.debug .subscription .container {
-    background-color: lightgreen;
-    height: 1000px;
-    min-height: 500px;
+    border: 1px dotted black;
+    padding-bottom: 2rem;
 }
 
 .debug .row {
     height: 100%;
-}
-
-.debug .hero .row {
-    height: calc(100% - 27px);
 }
 
 .debug [class^="col-"] {
@@ -121,6 +121,11 @@
 .debug .card {
     height: 100%;
     background-color: lightblue;
+}
+
+.debug .sponsors {
+    height: 500px;
+    background-color: lightgreen;
 }
 
 /* #endregion debug */
@@ -144,5 +149,7 @@ nav .nav_right {
 #site_main .hero.container {
     height: 500px;
 }
+
+
 
 /* #endregion main */
