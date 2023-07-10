@@ -15,6 +15,15 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
 /* #endregion Commons */
 
 /* #region Utilities */
@@ -57,6 +66,14 @@ h1 {
     flex-wrap: wrap;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.border-bottom {
+    border-bottom: 1px solid lightgrey;
+}
+
 .container {
     max-width: 1170px;
     width: 80%;
@@ -83,16 +100,24 @@ h1 {
     width: 100%;
 }
 
-.square {
-    aspect-ratio: 1;
-}
-
 .mt-1 {
     margin-top: .5rem;
 }
 
+.mb-1 {
+    margin-bottom: .5rem;
+}
+
+.pt-2 {
+    padding-top: 1rem;
+}
+
 .pt-4 {
     padding-top: 2rem;
+}
+
+.pt-6 {
+    padding-top: 3rem;
 }
 
 .pt-8 {
@@ -111,10 +136,29 @@ h1 {
     padding-bottom: 2rem;
 }
 
+.pb-6 {
+    padding-bottom: 3rem;
+}
+
+.py-1 {
+    padding: .5rem 0;
+}
+
+.px-4 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
 .btn-primary {
     background-color: var(--db-primary);
     padding: .25rem .75rem;
     color: var(--db-white);
+    text-decoration: none;
 }
 
 /* #endregion Utilities */
@@ -161,7 +205,7 @@ h1 {
     padding: 1rem;
 }
 
-.debug .subscription [class^="col-"] {
+.debug .subscriptions [class^="col-"] {
     height: 50%;
 }
 
@@ -228,6 +272,56 @@ h1 {
 #site_main .hero img {
     max-width: 100%;
 }
+
+#site_main [class^="col-"] {
+    padding: 0 1rem;
+    height: 100%;
+}
+
+#site_main .subscriptions .card {
+    border: 1px solid lightgrey;
+    height: 1120px
+}
+
+#site_main .subscriptions .top {
+    border-bottom: 1px solid lightgrey;
+    padding: 1rem 0;
+}
+
+#site_main .subscriptions .center {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
+}
+
+#site_main .subscriptions .center i{
+    padding-right: .5rem;
+}
+
+#site_main .subscriptions .bottom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+#site_main .subscriptions .center div,
+#site_main .subscriptions .bottom div,
+#site_main .subscriptions .center h3,
+#site_main .subscriptions .bottom h4{
+    padding-bottom: 1.5rem;
+}
+
+.bottom i {
+    color: var(--db-primary);
+}
+
+#site_main .subscriptions .btn-sub {
+    display: inline-block;
+    padding: .75rem 2rem;
+}
+
 
 /* #endregion main */
 
