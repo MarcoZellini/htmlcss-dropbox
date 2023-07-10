@@ -40,10 +40,13 @@
     justify-content: space-between;
 }
 
+.f-wrap {
+    flex-wrap: wrap;
+}
+
 .container {
     max-width: 1170px;
     width: 80%;
-    height: 500px;
     margin: auto;
 }
 
@@ -55,9 +58,17 @@
     width: calc(100% / 12 * 8);
 }
 
+.col-12 {
+    width: 100%;
+}
+
 /* #endregion Utilities */
 
 /* #region debug */
+
+.debug * {
+    border: 1px dashed black;
+}
 
 .debug #site_header {
     height: 80px;
@@ -72,7 +83,6 @@
 .debug nav .nav_left,
 .debug nav .nav_right {
     background-color: palegreen;
-    border: 1px dashed black;
     height: 100%;
 }
 
@@ -85,10 +95,11 @@
 
 .debug .container {
     background-color: lightgreen;
+    height: 500px;
 }
 
 .debug .row {
-    height: 100%;
+    height: calc(100% - 27px);
 }
 
 .debug [class^="col-"] {
@@ -120,6 +131,8 @@ nav .nav_right {
 
 /* #region main */
 
-
+#site_main .hero.container {
+    height: 500px;
+}
 
 /* #endregion main */
