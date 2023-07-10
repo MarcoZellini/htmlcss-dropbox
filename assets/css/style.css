@@ -51,6 +51,8 @@ h3 {
     /* Clean Channel OutDoor */
 }
 
+/* flex */
+
 .d-flex {
     display: flex;
 }
@@ -75,6 +77,8 @@ h3 {
     flex-wrap: wrap;
 }
 
+/* typography */
+
 .text-center {
     text-align: center;
 }
@@ -82,6 +86,8 @@ h3 {
 .text-right {
     text-align: right;
 }
+
+/* boxing */
 
 .border-bottom {
     border-bottom: 1px solid var(--db-light);
@@ -92,6 +98,8 @@ h3 {
     width: 80%;
     margin: auto;
 }
+
+/* sizing */
 
 .col-2 {
     width: calc(100% / 12 * 2);
@@ -117,12 +125,24 @@ h3 {
     margin-top: .5rem;
 }
 
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
 .mt-6 {
     margin-top: 3rem;
 }
 
 .mb-1 {
     margin-bottom: .5rem;
+}
+
+.mb-6 {
+    margin-bottom: 3rem;
 }
 
 .ml-4 {
@@ -165,6 +185,10 @@ h3 {
     padding-bottom: 3rem;
 }
 
+.pb-8 {
+    padding-bottom: 4rem;
+}
+
 .py-1 {
     padding: .5rem 0;
 }
@@ -175,9 +199,19 @@ h3 {
 
 }
 
+/* images */
+
+.img-fluid {
+    max-width: 100%;
+}
+
+/* miscellaneous */
+
 .square {
     aspect-ratio: 1;
 }
+
+/* buttons */
 
 .btn {
     padding: .5rem 1rem;
@@ -196,6 +230,12 @@ h3 {
     background-color: var(--db-primary);
     color: var(--db-white);
     text-decoration: none;
+}
+
+.btn-secondary {
+    border: 2px solid grey;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
 }
 
 /* #endregion Utilities */
@@ -287,16 +327,25 @@ h3 {
     padding: 1rem;
 }
 
-
-
 /* #endregion header  */
 
 /* #region main */
+
+/* hero */
 
 #site_main .hero {
     background-color: var(--db-section-bg);
     height: 710px;
 }
+
+#site_main .hero .container{
+    padding: 0 -3rem;
+}
+
+#site_main .hero [class^="col-"] {
+    padding: 0 0;
+}
+
 
 #site_main .hero p {
     font-weight: thin;
@@ -306,16 +355,15 @@ h3 {
     display: inline-block;
 }
 
-#site_main .hero img {
-    max-width: 100%;
+/* subscriptions */
+
+#site_main .subscriptions h2, 
+#site_main .subscriptions .plan_type {
+    padding-left: 2rem;
 }
 
 #site_main [class^="col-"] {
     padding: 0 2rem;
-}
-
-#site_main .subscriptions .row {
-    margin: 0 -1.5rem;
 }
 
 #site_main .subscriptions .card {
@@ -333,11 +381,10 @@ h3 {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    /* border-bottom: 1px solid var(--db-light); */
 }
 
 #site_main .subscriptions .center .line-bottom {
-    border-bottom: 1px solid var(--);
+    border-bottom: 1px solid var(--db-light);
 }
 
 #site_main .subscriptions .center i,
@@ -366,6 +413,12 @@ h3 {
     display: inline-block;
     padding: .75rem 2rem;
 }
+
+/* partners */
+
+/* #site_main .db_partner .card img {
+
+} */
 
 
 /* #endregion main */
