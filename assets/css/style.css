@@ -10,6 +10,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
 /* #endregion Commons */
 
 /* #region Utilities */
@@ -86,10 +91,30 @@ body {
     margin-top: .5rem;
 }
 
+.pt-4 {
+    padding-top: 2rem;
+}
+
+.pt-8 {
+    padding-top: 4rem;
+}
+
+.pt-10 {
+    padding-top: 5rem;
+}
+
+.pt-20 {
+    padding-top: 10rem;
+}
+
+.pb-4 {
+    padding-bottom: 2rem;
+}
+
 .btn-primary {
     background-color: var(--db-primary);
     padding: .25rem .75rem;
-    color: var(--db-white)
+    color: var(--db-white);
 }
 
 /* #endregion Utilities */
@@ -180,13 +205,28 @@ body {
     padding: 1rem;
 }
 
+
+
 /* #endregion header  */
 
 /* #region main */
 
 #site_main .hero {
     background-color: var(--db-section-bg);
-    height: 500px;
+    height: 730px;
+}
+
+#site_main .hero p {
+    font-weight: thin;
+}
+
+#site_main .hero .btn-hero {
+    display: inline-block;
+    padding: .5rem 1rem;
+}
+
+#site_main .hero img {
+    max-width: 100%;
 }
 
 /* #endregion main */
