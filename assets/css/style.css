@@ -31,6 +31,7 @@ h3 {
 :root {
     --db-black: rgba(0, 0, 0, 1);
     --db-white: rgba(255, 255, 255, 1);
+    --db-light: lightgray;
     --db-primary: rgba(0, 97, 255, 1);
     --db-section-bg: rgba(180, 208, 231, 1);
     --db-section-title: rgba(97, 8, 45, 1);
@@ -45,7 +46,7 @@ h3 {
     --db-wbr: rgba(213, 0, 31, 1);
     /* World Bicycle Relief */
     --db-lonelyplanet: rgba(13, 36, 129, 1);
-    --db-hearst: rgba(180, 208, 231, 1);
+    --db-: rgba(180, 208, 231, 1);
     --db-cco: rgba(255, 216, 48, 1);
     /* Clean Channel OutDoor */
 }
@@ -78,8 +79,12 @@ h3 {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .border-bottom {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid var(--db-light);
 }
 
 .container {
@@ -112,8 +117,16 @@ h3 {
     margin-top: .5rem;
 }
 
+.mt-6 {
+    margin-top: 3rem;
+}
+
 .mb-1 {
     margin-bottom: .5rem;
+}
+
+.ml-4 {
+    margin-left: 2rem;
 }
 
 .pt-2 {
@@ -140,6 +153,10 @@ h3 {
     padding-top: 10rem;
 }
 
+.pb-2 {
+    padding-bottom: 1rem;
+}
+
 .pb-4 {
     padding-bottom: 2rem;
 }
@@ -162,9 +179,21 @@ h3 {
     aspect-ratio: 1;
 }
 
+.btn {
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+
+.btn-sm {
+    padding: .25rem .75rem;
+}
+
+.btn-lg {
+    padding: .75rem 2rem;
+}
+
 .btn-primary {
     background-color: var(--db-primary);
-    padding: .25rem .75rem;
     color: var(--db-white);
     text-decoration: none;
 }
@@ -238,7 +267,7 @@ h3 {
 }
 
 .debug .faq h2,
-.debug .faq .question span{
+.debug .faq .question span {
     background-color: lightsalmon;
 }
 
@@ -246,6 +275,7 @@ h3 {
 .debug #site_footer span {
     background-color: lightsalmon;
 }
+
 /* #endregion debug */
 
 
@@ -265,7 +295,7 @@ h3 {
 
 #site_main .hero {
     background-color: var(--db-section-bg);
-    height: 730px;
+    height: 710px;
 }
 
 #site_main .hero p {
@@ -274,7 +304,6 @@ h3 {
 
 #site_main .hero .btn-hero {
     display: inline-block;
-    padding: .5rem 1rem;
 }
 
 #site_main .hero img {
@@ -282,8 +311,7 @@ h3 {
 }
 
 #site_main [class^="col-"] {
-    padding: 0 1.5rem;
-    height: 100%;
+    padding: 0 2rem;
 }
 
 #site_main .subscriptions .row {
@@ -291,12 +319,12 @@ h3 {
 }
 
 #site_main .subscriptions .card {
-    border: 1px solid lightgrey;
-    /* height: 1120px; */
+    border: 1px solid var(--db-light);
+    height: 100%
 }
 
 #site_main .subscriptions .top {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid var(--db-light);
     padding: 1rem 0;
 }
 
@@ -305,11 +333,15 @@ h3 {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    border-bottom: 1px solid lightgray;
+    /* border-bottom: 1px solid var(--db-light); */
+}
+
+#site_main .subscriptions .center .line-bottom {
+    border-bottom: 1px solid var(--);
 }
 
 #site_main .subscriptions .center i,
-#site_main .subscriptions .bottom i{
+#site_main .subscriptions .bottom i {
     padding-right: .5rem;
 }
 
@@ -322,7 +354,7 @@ h3 {
 #site_main .subscriptions .center div,
 #site_main .subscriptions .bottom div,
 #site_main .subscriptions .center h3,
-#site_main .subscriptions .bottom h4{
+#site_main .subscriptions .bottom h4 {
     padding-bottom: 1.5rem;
 }
 
