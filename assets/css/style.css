@@ -17,15 +17,75 @@
     --db-section-bg: background-color: rgba(180, 208, 231, 1);
     --db-section-title: background-color: rgba(97, 8, 45, 1);
     --db-link: background-color: rgba(32, 8, 241, 1);
-    --db-designit-main:background-color: rgba(245, 245, 245, 1);
+    --db-designit-main: background-color: rgba(245, 245, 245, 1);
     --db-designit: background-color: rgba(162, 211, 155, 1);
-    --db-asu: background-color: rgba(97, 8, 43, 1); /* Arizona State University */
-    --db-uf: background-color: rgba(0, 147, 206, 1); /* University Of Florida */
+    --db-asu: background-color: rgba(97, 8, 43, 1);
+    /* Arizona State University */
+    --db-uf: background-color: rgba(0, 147, 206, 1);
+    /* University Of Florida */
     --db-topps: background-color: rgba(255, 28, 28, 1);
-    --db-wbr: background-color: rgba(213, 0, 31, 1); /* World Bicycle Relief */
+    --db-wbr: background-color: rgba(213, 0, 31, 1);
+    /* World Bicycle Relief */
     --db-lonelyplanet: background-color: rgba(13, 36, 129, 1);
     --db-hearst: background-color: rgba(180, 208, 231, 1);
-    --db-cco: background-color: rgba(255, 216, 48, 1); /* Clean Channel OutDoor */
+    --db-cco: background-color: rgba(255, 216, 48, 1);
+    /* Clean Channel OutDoor */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1170px;
+    width: 80%;
+    height: 500px;
 }
 
 /* #endregion Utilities */
+
+/* #region debug */
+
+.debug #site_header {
+    height: 80px;
+    background-color: palevioletred;
+}
+
+.debug nav {
+    height: 100%;
+    padding: 1rem;
+}
+
+.debug nav .nav_left,
+.debug nav .nav_right {
+    background-color: palegreen;
+    border: 1px dashed black;
+    height: 100%;
+}
+
+.debug nav a {
+    display: inline-block;
+    height: 100%;
+    min-width: 50px;
+    background-color: paleturquoise;
+}
+
+.debug .container {
+    background-color: lightgreen;
+}
+
+
+/* #endregion debug */
+
+nav .nav_left,
+nav .nav_right {
+    width: calc(50% - 2rem);
+}
+
+nav .nav_right {
+    text-align: right;
+}
