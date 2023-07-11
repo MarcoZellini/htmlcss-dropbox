@@ -197,6 +197,10 @@ h3 {
     padding-bottom: 4rem;
 }
 
+.pb-20 {
+    padding-bottom: 10rem;
+}
+
 .py-1 {
     padding: .5rem 0;
 }
@@ -264,6 +268,10 @@ h3 {
     border: 2px solid grey;
     text-decoration: none;
     color: rgb(77, 77, 77);
+}
+
+.unstyled-list {
+    list-style: none;
 }
 
 /* #endregion Utilities */
@@ -366,10 +374,6 @@ h3 {
     height: 680px;
 }
 
-#site_main .hero .container{
-    padding: 0 -3rem;
-}
-
 #site_main .hero [class^="col-"] {
     padding: 0 0;
 }
@@ -448,6 +452,8 @@ h3 {
     padding-top: 1rem;
 }
 
+/* more about */
+
 /* sponsors */
 
 #site_main .sponsors [class^="col-"] {
@@ -513,7 +519,7 @@ h3 {
 
 #site_main .try_business .btn {
     text-decoration: none;
-    background-color: var(--db-light);
+    background-color: rgb(248, 246, 246);
     color: var(--db-dark);
     flex-shrink: 0;
 }
@@ -536,6 +542,35 @@ h3 {
 
 #site_footer {
     background-color: var(--db-black);
+    color: var(--db-white);
+}
+
+#site_footer a{
+    color: var(--db-white);
+    text-decoration: none;
+}
+
+#site_footer [class^="col-"] {
+    padding: 4rem 0;
+}
+
+#site_footer li {
+    padding-bottom: 1rem
+}
+
+
+#site_footer h3 {
+    padding-bottom: 2rem;
+}
+
+#site_footer .lang {
+    display: inline-block;
+    border-top: 1px solid white;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.test {
+    vertical-align: sub;
 }
 
 /* #endregion footer */
