@@ -69,8 +69,16 @@ h3 {
     justify-content: space-around;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .align-items-baseline {
     align-items: baseline;
+}
+
+.align-items-center {
+    align-items: center;
 }
 
 .f-wrap {
@@ -215,6 +223,10 @@ h3 {
 
 .img-fluid {
     max-width: 100%;
+}
+
+.img-fluid-sm {
+    max-width: 70%;
 }
 
 /* miscellaneous */
@@ -426,12 +438,62 @@ h3 {
     padding: .75rem 2rem;
 }
 
-/* partners */
-
 /* business */
 
 #site_main .db_business .card p{
     padding-top: 1rem;
+}
+
+/* sponsors */
+
+#site_main .sponsors [class^="col-"] {
+    padding: 0;
+}
+
+#site_main .sponsors .designit {
+    background-color: var(--db-designit);
+    border: 15px solid rgb(164, 233, 164)
+}
+
+#site_main .sponsors .uni-arizona {
+    background-color: var(--db-asu);
+}
+
+#site_main .sponsors .uni-florida {
+    background-color: var(--db-uf);
+}
+
+#site_main .sponsors .topps {
+    background-color: var(--db-topps);
+}
+
+#site_main .sponsors .wbr {
+    background-color: var(--db-wbr);
+}
+
+#site_main .sponsors .hearst {
+    background-color: var(--db-section-bg);
+}
+
+#site_main .sponsors .lonely-planet {
+    background-color: var(--db-lonelyplanet);
+}
+
+#site_main .sponsors .clear-channel {
+    background-color: var(--db-cco);
+}
+
+
+#site_main .sponsors .designit-lg{
+    padding: 3rem;
+}
+
+#site_main .sponsors .designit-lg > span {
+    display: inline-block;
+}
+
+#site_main .sponsors .designit-lg hr{
+    width: 30%;
 }
 
 /* #endregion main */
