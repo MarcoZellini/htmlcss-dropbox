@@ -460,13 +460,18 @@ h3 {
     padding: 0;
 }
 
-#site_main .sponsors .designit {
+#site_main .sponsors .designit{
     background-color: var(--db-designit);
-    border: 15px solid rgb(164, 233, 164)
+    border: 15px solid rgb(164, 233, 164);
+}
+
+#site_main .sponsors img{
+    filter: invert(1);
 }
 
 #site_main .sponsors .uni-arizona {
     background-color: var(--db-asu);
+
 }
 
 #site_main .sponsors .uni-florida {
@@ -496,6 +501,10 @@ h3 {
 
 #site_main .sponsors .designit-lg{
     padding: 3rem;
+}
+
+#site_main .sponsors .designit-lg img {
+    filter: invert(0);
 }
 
 #site_main .sponsors .designit-lg > span {
