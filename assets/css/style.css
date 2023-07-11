@@ -213,6 +213,10 @@ h3 {
     padding: 5rem 0;
 }
 
+.py-20 {
+    padding: 10rem 0;
+}
+
 .px-4 {
     padding-right: 2rem;
     padding-left: 2rem;
@@ -512,6 +516,18 @@ h3 {
     background-color: var(--db-light);
     color: var(--db-dark);
     flex-shrink: 0;
+}
+
+/* faq */
+
+#site_main .faq h2,
+#site_main .faq .question{
+    border-bottom: 1px solid grey;
+}
+
+#site_main .faq .question {
+    border-bottom: 1px solid grey;
+    padding: 2rem 2rem 2rem 0;
 }
 
 /* #endregion main */
