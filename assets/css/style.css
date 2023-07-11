@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
 }
 
@@ -335,7 +335,7 @@ h3 {
 
 #site_main .hero {
     background-color: var(--db-section-bg);
-    height: 710px;
+    height: 680px;
 }
 
 #site_main .hero .container{
@@ -416,10 +416,11 @@ h3 {
 
 /* partners */
 
-/* #site_main .db_partner .card img {
+/* business */
+
+/* #site_main .db_business .card img {
 
 } */
-
 
 /* #endregion main */
 
