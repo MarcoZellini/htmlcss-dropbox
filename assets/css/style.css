@@ -46,7 +46,7 @@ h3 {
     --db-wbr: rgba(213, 0, 31, 1);
     /* World Bicycle Relief */
     --db-lonelyplanet: rgba(13, 36, 129, 1);
-    --db-: rgba(180, 208, 231, 1);
+    --db-hearst: rgba(180, 208, 231, 1);
     --db-cco: rgba(255, 216, 48, 1);
     /* Clean Channel OutDoor */
 }
@@ -472,7 +472,7 @@ h3 {
 }
 
 #site_main .sponsors .hearst {
-    background-color: var(--db-section-bg);
+    background-color: var(--db-hearst);
 }
 
 #site_main .sponsors .lonely-planet {
@@ -494,6 +494,24 @@ h3 {
 
 #site_main .sponsors .designit-lg hr{
     width: 30%;
+}
+
+/* try business */
+
+#site_main .try_business{
+    background-color: var(--db-section-bg)
+}
+
+#site_main .try_business h2 {
+    padding-right: 12rem;
+    color: var(--db-section-title)
+}
+
+#site_main .try_business .btn {
+    text-decoration: none;
+    background-color: var(--db-light);
+    color: var(--db-dark);
+    flex-shrink: 0;
 }
 
 /* #endregion main */
