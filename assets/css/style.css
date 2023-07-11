@@ -300,6 +300,10 @@ h3 {
     list-style: none;
 }
 
+.bg-blue {
+    background-color: var(--db-primary);
+}
+
 /* #endregion Utilities */
 
 /* #region debug */
@@ -446,6 +450,26 @@ h3 {
 #site_main #subscriptions .card {
     border: 1px solid var(--db-light);
     height: 100%
+}
+
+#site_main #subscriptions .plan_type .radio-button-in {
+    background-color: white;
+}
+
+#site_main #subscriptions .plan_type .radio-button-out {
+    padding: .6rem;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+#site_main #subscriptions .plan_type .radio-button-out-checked,
+#site_main #subscriptions .plan_type .radio-button-in {
+    line-height: 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: .3rem;
 }
 
 #site_main #subscriptions .top {
@@ -653,3 +677,4 @@ h3 {
 }
 
 /* #endregion footer */
+
