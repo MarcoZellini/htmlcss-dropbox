@@ -363,7 +363,7 @@ h3 {
 }
 
 #site_main [class^="col-"] {
-    padding: 0 2rem;
+    padding: 2rem 2rem;
 }
 
 #site_main .subscriptions .card {
@@ -418,9 +418,9 @@ h3 {
 
 /* business */
 
-/* #site_main .db_business .card img {
-
-} */
+#site_main .db_business .card p{
+    padding-top: 1rem;
+}
 
 /* #endregion main */
 
