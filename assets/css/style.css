@@ -193,6 +193,18 @@ h3 {
     padding: .5rem 0;
 }
 
+.py-4 {
+    padding: 2rem 0;
+}
+
+.py-8 {
+    padding: 4rem 0;
+}
+
+.py-10 {
+    padding: 5rem 0;
+}
+
 .px-4 {
     padding-right: 2rem;
     padding-left: 2rem;
