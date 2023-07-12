@@ -423,7 +423,6 @@ h3 {
 
 #site_header {
     position: sticky;
-    /* width: 100%; */
     background-color: var(--db-white);
     color: black;
     z-index:10000;
@@ -715,7 +714,7 @@ h3 {
 
 
 
-/* Login Page */
+/* #region Login */
 
 #login .text-sm {
     color: #acacac;
@@ -734,8 +733,6 @@ h3 {
 #login form *{
     display: block;
 }
-
-
 
 #login input {
     border: 1px solid #cecece;
@@ -772,3 +769,5 @@ h3 {
     padding: .25rem .5rem;
     bottom: 14px;
 }
+
+/* #endregion Login */
