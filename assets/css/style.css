@@ -99,6 +99,18 @@ h3 {
     text-align: right;
 }
 
+.text-lg {
+    font-size: 1.75rem;
+}
+
+.text-md {
+    font-size: 1.25rem;
+}
+
+.text-sm {
+    font-size: .8rem;
+}
+
 .vertical-align-sub {
     vertical-align: sub;
 }
@@ -112,6 +124,11 @@ h3 {
 .container {
     max-width: 1170px;
     width: 80%;
+    margin: auto;
+}
+
+.container-xs {
+    width: 350px;
     margin: auto;
 }
 
@@ -306,6 +323,11 @@ h3 {
 .btn-secondary:hover {
     color: white;
     background-color: rgb(121, 120, 120);
+}
+
+.btn_login {
+    border: 1px solid #cecece;
+    padding: .5rem 2rem;
 }
 
 .unstyled-list {
@@ -695,16 +717,12 @@ h3 {
 
 /* Login Page */
 
-.text-md {
-    font-size: 1.25rem;
-}
-
-.text-sm {
-    font-size: .8rem;
-}
-
 #login .text-sm {
     color: #acacac;
+}
+
+#login .btn_login span {
+    font-size: 0.9rem;
 }
 
 #login .btn,
@@ -717,16 +735,8 @@ h3 {
     display: block;
 }
 
-.container-xs {
-    width: 350px;
-    margin:auto;
-}
 
-.text-lg {
-    font-size: 1.7rem;
-}
 
-.btn_login, 
 #login input {
     border: 1px solid #cecece;
     padding: .5rem 2rem;
@@ -746,7 +756,19 @@ h3 {
     right: 40px;
 }
 
-
 #login .btn_submit {
     padding: 1rem 2rem;
+    font-weight: 900;
+}
+
+#login .divider {
+    width: 100%;
+    text-align: center;
+}
+
+#login .divider span {
+    position: relative;
+    background-color: #fff;
+    padding: .25rem .5rem;
+    bottom: 14px;
 }
